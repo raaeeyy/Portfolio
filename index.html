@@ -14,24 +14,21 @@
 <body>
     <div id="header">
         <div class="container">
-            <nav>
+            <div id="nav">
                 <img src="images/logo.png" alt="logo" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#skill">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contacts</a></li>
                     <i class="fa-solid fa-x" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars " onclick="openmenu()"></i>
-            </nav>
+            </div>
         </div>
         <div class="text-container">
-            <p>Hi, I'm Rhea Mae</p>
-        </div>
-        <div class="text-container1">
-            <h1>let's build something great.</h1>
+            <p> Let's make<br>something great</p>
         </div>
     </div>
 
@@ -45,33 +42,32 @@
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a quam at dui porttitor tristique. Mauris orci lectus, sagittis sit amet cursus in, viverra id risus. Proin luctus metus a purus dapibus ultricies. Nulla ultricies purus in dolor semper dapibus.
-                        Ut eget placerat justo, a mollis felis.
+                        It's me, Rhea. a Bukidnon State University fourth-year student majoring in programming with a Bachelor of Science in Information Technology. I'm knowledgeable in C and Java programming, and Microsoft Word, Powerpoint, and Excel. <br>                        This year, I experienced Mentoring Java OOP programming to my fellow Bukidnon State University information technology student and Assisting in teaching Microsoft Word, Excel, and PowerPoint to Cabanglasan municipality barangay
+                        workers and stakeholders,and I am willing to experience more.
+
                     </p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab( 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab( 'skills')">Skills</p>
                         <p class="tab-links" onclick="opentab( 'experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab( 'education')">Education</p>
+                        <p class="tab-links active-link" onclick="opentab( 'education')">Education</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web app development</li>
-                            <li><span>App Development</span><br>Building android apps</li>
+                            <li><span>Java OOP Programming</span><br></li>
+                            <li><span>C programming</span><br></li>
+                            <li><span>Microsoft Word, Powerpoint, Excel</span><br></li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2022 - current</span><br>Designing Web/App interfaces</li>
-                            <li><span>2022 - current</span><br>Web app development</li>
-                            <li><span>2022 - current</span><br>Building android apps</li>
+                            <li><span>09-10-22</span><br>Training-Workshop on MS Word, PowerPoint, and Excel Barangay Workers and stakeholders of the Municipality of Cabanglasan</li>
+                            <li><span>11-02-22</span><br>Mentoring Java Programming to BSIT 3rd year</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="education">
+                    <div class="tab-contents active-tab" id="education">
                         <ul>
-                            <li><span>2020</span><br>Designing Web/App interfaces</li>
-                            <li><span>2021</span><br>Web app development</li>
-                            <li><span>2022</span><br>Building android apps</li>
+                            <li><span>2013 - 2019</span><br>Saint Isidore High School</li>
+                            <li><span>2019 - ongoing</span><br>Bukidnon State University</li>
                         </ul>
                     </div>
                 </div>
@@ -79,30 +75,47 @@
         </div>
     </div>
 
+    <!-- About Logo-->
+
+    <div id="aboutLogo">
+        <div class="container">
+            <div class="row ">
+
+                <div class="aboutLogo-col-1">
+                    <h1 class="subtitle">About Logo</h1>
+                    <p>
+                        The letter 'R' and 'C' that you can see from the logo are from my name which is Rhea Cabuyaon. 'R' stand for Rhea while 'C' is Cabuyaon. I put 'Rhea Cabuyaon' in the center of the logo to give idea to people what 'R' and 'C' means.
+
+                    </p>
+                </div>
+                <div class="aboutLogo-col-2">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- skills -->
-    <div id="skills">
+    <div id="skill">
         <div class="container">
             <h1 class="subtitle">My Skills</h1>
             <div class="skills-list">
                 <div>
-                    <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quam alias quo sed voluptatem consequatur iure saepe, quisquam ad sequi illo! Natus tempora dicta illo libero quas minus sint inventore!</p>
-                    <a href=" ">Learn more</a>
+                    <h2>Java Programming</h2>
+                    <p>In the third year in college, we discussed this subject; I also did some independent study and learned about it. Object-oriented programming in Java is the process of building objects that have both data and methods. </p>
                 </div>
                 <div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quam alias quo sed voluptatem consequatur iure saepe, quisquam ad sequi illo! Natus tempora dicta illo libero quas minus sint inventore!</p>
-                    <a href=" ">Learn more</a>
+                    <h2>C Programming</h2>
+                    <p>I learned C programming a bit in High School and learn more in college. Programming in C is quite effective for all purposes. It may be used to create programs like operating systems, databases, compilers, and other types of software.
+                    </p>
                 </div>
                 <div>
-                    <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quam alias quo sed voluptatem consequatur iure saepe, quisquam ad sequi illo! Natus tempora dicta illo libero quas minus sint inventore!</p>
-                    <a href=" ">Learn more</a>
+                    <h3> MS Word, Powerpoint, and Excel</h3>
+                    <p>Three of the main program in Microsoft Office Suite are PowerPoint, Word, and Excel. They are frequently combined to produce all-encompassing projects. I studied MS word, Powerpoint, and Excel in High School, and keep on learning until
+                        today. I more learn how to use it through exploring the system and self learning.</p>
                 </div>
-
             </div>
         </div>
-
     </div>
 
     <!-- portfolio -->
@@ -111,31 +124,36 @@
             <h1 class="subtitle">My Works</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/aboutpic.png">
+                    <img src="images/splash_logo.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, eligendi illo quisquam molestias atque vitae.</p>
-                        <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                        <h3>Learn Math</h3>
+                        <p>Android users can download the Learn Math Mobile Application. A calculator, addition, multiplication, division, and subtraction quiz are included in this program. This application's goal is to serve as a tool for mathematics learning,
+                            and anyone can use it.
+                        </p>
+                        <a href=" "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/aboutpic.png">
+                    <img src="images/corona_logo.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, eligendi illo quisquam molestias atque vitae.</p>
-                        <a href="# "><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                        <h3>Corona Run</h3>
+                        <p>Corona Run is a mobile game application that we build with my team. The game's plot revolves around a child running and dodging the virus; if the virus catches up with the child three times, the game is over. This mobile game was
+                            developed during the COVID-19 pandemic, and while it can be fun, it also serves as a helpful reminder for everyone to be cautious around the virus.</p>
+                        <a href=" "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/aboutpic.png">
+                    <img src="images/ng_logo.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, eligendi illo quisquam molestias atque vitae.</p>
-                        <a href=" "><i class="fa-solid fa-paperclip"></i></a>
+                        <h3>New-Gen Pastry</h3>
+                        <p>New-Gen Pastry is an online shopping website for pastry desserts. By registering and logging in first, you will be able to surf for different kinds of pastries and choose whatever you want, as simple as adding to cart and placing
+                            your order, you can have it delivered at your doors. We create this website through computer and Visual Studio Code as the programming editor, HTML and CSS as the front-end, Node.js as the back-end and MongoDB as the database
+                            of the system.
+                        </p>
+                        <a href=" "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
         </div>
     </div>
 
@@ -152,7 +170,6 @@
                         <a href="https://www.instagram.com/rhmcbyn/"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/rhea-cabuyaon-4b4129224"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href=" " download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -166,7 +183,7 @@
             </div>
         </div>
     </div>
-
+    <!-- about -->
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -182,19 +199,19 @@
             document.getElementById(tabname).classList.add("active-tab")
         }
     </script>
-
+    <!-- small screen -->
     <script>
-        var sidemeu = document.getElementById("sidemenu");
+        var sidemenu = document.getElementById("sidemenu");
 
         function openmenu() {
-            sidemeu.style.right = "0";
+            sidemenu.style.right = "0";
         }
 
         function closemenu() {
-            sidemeu.style.right = "-200px";
+            sidemenu.style.right = "-200px";
         }
     </script>
-
+    <!-- contact me comment -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzOP28ZcHVobaAttmWo3Bq1N-Mj7MzDkxpT0UHwmZSfscKYL74P8ai-eEwjV_aSHDJKRA/exec'
         const form = document.forms['submit-to-google-sheet']
@@ -215,6 +232,24 @@
                 })
                 .catch(error => console.error('Error!', error.message))
         })
+    </script>
+    <!-- sticky nav -->
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("nav");
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
     </script>
 </body>
 
